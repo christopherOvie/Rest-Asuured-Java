@@ -15,7 +15,7 @@ public class EmployeeAPI2 {
 	//Hashmap  
 	//put the data ino hashmap, which stores values like <key> value
 	@Test(priority=1)
-	public void newEmp() {
+	public void createNewEmp() {
 		
 		HashMap data= new HashMap();//its one of collection in java
 		data.put("empname", "peterson");//stores value like key and value
@@ -23,14 +23,15 @@ public class EmployeeAPI2 {
 		
 		String arr []= {"readingBooks", "travels"};
 		data.put("hobbies", arr);
-			given()
+		
+	given()
 		.header("Content-type","application/json")
 		  .body(data)
 		
-		.when()
+	.when()
 		   .post("http://localhost:3000/Employees")
 		   
-		 .then() 
+	 .then() 
 		 .statusCode(201)
 		 .body("empname", equalTo("peterson"))
 		 .log().body();

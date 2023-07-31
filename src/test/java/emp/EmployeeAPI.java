@@ -13,7 +13,7 @@ public class EmployeeAPI {
 	//create a method in diferent class which returns String(json content)
 	// ex payload(class)... getdata(method)
 	@Test(priority=1)
-public void newEmp() {
+public void createNewEmp() {
 	
 	given()
 	

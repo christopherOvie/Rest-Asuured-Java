@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="resBody.ResponseBodyEx1">
+      <class name="goRest.CreateUser_DaraProvider">
         <methods>
-          <include name="validateBody"/>
+          <include name="createUser" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- resBody.ResponseBodyEx1 -->
+      </class> <!-- goRest.CreateUser_DaraProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

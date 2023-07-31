@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-10T14:44:28 BST" name="Default suite" finished-at="2023-07-10T14:44:28 BST" duration-ms="227">
+  <suite started-at="2023-07-31T17:26:45 BST" name="GoRest4" finished-at="2023-07-31T17:26:52 BST" duration-ms="6167">
     <groups>
     </groups>
-    <test started-at="2023-07-10T14:44:28 BST" name="Default test" finished-at="2023-07-10T14:44:28 BST" duration-ms="227">
-      <class name="resBody.ResponseBodyEx1">
-        <test-method signature="validateBody()[pri:0, instance:resBody.ResponseBodyEx1@7e7be63f]" started-at="2023-07-10T14:44:28 BST" name="validateBody" finished-at="2023-07-10T14:44:28 BST" duration-ms="55" status="PASS">
+    <test started-at="2023-07-31T17:26:45 BST" name="GoRestAPITestingWithDate" finished-at="2023-07-31T17:26:52 BST" duration-ms="6167">
+      <class name="chaining.GoRest4">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:chaining.GoRest4@485966cc]" started-at="2023-07-31T17:26:45 BST" name="initialize" finished-at="2023-07-31T17:26:45 BST" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateBody -->
-      </class> <!-- resBody.ResponseBodyEx1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- initialize -->
+        <test-method signature="createUser()[pri:1, instance:chaining.GoRest4@485966cc]" started-at="2023-07-31T17:26:45 BST" name="createUser" finished-at="2023-07-31T17:26:49 BST" duration-ms="3918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="getUser()[pri:2, instance:chaining.GoRest4@485966cc]" started-at="2023-07-31T17:26:49 BST" name="getUser" finished-at="2023-07-31T17:26:50 BST" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="updateUser()[pri:3, instance:chaining.GoRest4@485966cc]" started-at="2023-07-31T17:26:50 BST" name="updateUser" finished-at="2023-07-31T17:26:51 BST" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="deleteUser()[pri:4, instance:chaining.GoRest4@485966cc]" started-at="2023-07-31T17:26:51 BST" name="deleteUser" finished-at="2023-07-31T17:26:52 BST" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method is-config="true" signature="saveReport()[pri:0, instance:chaining.GoRest4@485966cc]" started-at="2023-07-31T17:26:52 BST" name="saveReport" finished-at="2023-07-31T17:26:52 BST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveReport -->
+      </class> <!-- chaining.GoRest4 -->
+    </test> <!-- GoRestAPITestingWithDate -->
+  </suite> <!-- GoRest4 -->
 </testng-results>

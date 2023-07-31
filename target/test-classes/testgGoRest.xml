@@ -1,0 +1,7 @@
+<suite name = "GoRest4">
+  <test name="GoRestAPITestingWithDate">
+         <classes>
+   <class name="chaining.GoRest4"/>
+          </classes>
+    </test>
+</suite>

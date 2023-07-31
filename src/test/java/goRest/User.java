@@ -21,5 +21,17 @@ public class User {
 		.then()
 		.statusCode(200);
 	}
+	
+	@Test
+	public void digest() {
+		
+		given()
+		
+		.when()
+		.get("https://gorest.co.in/public/v2/users")
+		
+		.then()
+		.statusCode(200);
+	}
 
 }
